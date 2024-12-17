@@ -18,7 +18,7 @@ export default function Breadcrumbs() {
 							<BreadcrumbLink
 								href={social.url}
 								target="_blank"
-								className="mr-2 hover:text-white"
+								className="mr-2 hover:text-white text-neutral-300"
 							>
 								{social.name}
 							</BreadcrumbLink>

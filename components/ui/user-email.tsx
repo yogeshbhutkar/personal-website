@@ -21,9 +21,9 @@ export default function UserEmail({
 				}}
 				className="flex items-center justify-center outline-none border-none bg-black"
 			>
-				<Mail className="h-4 w-4 text-neutral-400" />
+				<Mail className="h-4 w-4 text-neutral-300" />
 			</BorderAnimatedButton>
-			<p className="text-xs text-neutral-400">{name}</p>
+			<p className="text-xs text-neutral-300">{name}</p>
 		</div>
 	);
 }

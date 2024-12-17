@@ -11,7 +11,7 @@ const data = [
 					Currently contributing to open source projects like
 					WordPress and Gutenberg to make 43% of the web better.
 				</p>
-				<div className="grid grid-cols-2 gap-4">
+				<div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
 					<OGPreview url="https://rtcamp.com" />
 					<OGPreview url="https://github.com/WordPress/wordpress-develop" />
 					<OGPreview url="https://github.com/WordPress/gutenberg" />
@@ -28,7 +28,7 @@ const data = [
 					Contributed to CARE, a Digital Public Good enabling TeleICU
 					and decentralized healthcare administration across states.
 				</p>
-				<div className="grid grid-cols-2 gap-4">
+				<div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
 					<OGPreview url="https://ohc.network/" />
 					<OGPreview url="https://github.com/ohcnetwork/care_fe" />
 				</div>
@@ -45,7 +45,7 @@ const data = [
 					which schedules cron jobs, sends emails, and processes data
 					in real-time using Trigger Dev.
 				</p>
-				<div className="grid grid-cols-2 gap-4">
+				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-6">
 					<OGPreview url="https://nestjs.com/" />
 					<OGPreview url="https://redis.io/" />
 					<OGPreview url="https://trigger.dev/" />

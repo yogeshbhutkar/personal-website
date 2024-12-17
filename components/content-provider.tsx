@@ -5,5 +5,7 @@ export default function ContentProvider({
 }: {
 	children: React.ReactNode;
 }) {
-	return <div className="max-w-6xl mx-auto">{children}</div>;
+	return (
+		<div className="max-w-6xl mx-auto px-5 md:px-8 lg:px-0">{children}</div>
+	);
 }
