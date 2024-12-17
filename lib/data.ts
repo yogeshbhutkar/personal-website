@@ -3,6 +3,7 @@ export const userData = {
 	email: "yogeshbhutkar3@gmail.com",
 	introLine: "Hey, I'm Yogesh 👋",
 	about: "Building digital experiences through code </>.",
+	githubUrl: "https://github.com/yogeshbhutkar",
 	socials: [
 		{
 			name: "GitHub",
