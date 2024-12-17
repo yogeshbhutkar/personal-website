@@ -6,7 +6,7 @@ import GitHubRedirect from "./github-redirect";
 export default function UserProfile() {
 	return (
 		<main className="flex flex-col items-center justify-center text-center h-[90vh]">
-			<div className="rounded-full overflow-hidden w-44 h-44 -mt-10">
+			<div className="rounded-full overflow-hidden w-44 h-44 -mt-32 md:-mt-10">
 				<Image
 					src={"/images/user-profile.jpg"}
 					alt="User profile"
