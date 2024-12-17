@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import ContentProvider from "@/components/content-provider";
 import Experience from "@/components/experience";
 import Footer from "@/components/footer";
+import LatestBlogs from "@/components/latest-blogs";
 
 export default function Home() {
 	return (
@@ -11,6 +12,7 @@ export default function Home() {
 			<ContentProvider>
 				<UserProfile />
 				<Experience />
+				<LatestBlogs />
 			</ContentProvider>
 			<Footer />
 		</>

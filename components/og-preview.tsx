@@ -29,24 +29,24 @@ export function OGPreview({ url }: { url: string }) {
 
 	return (
 		<a href={url} target="_blank" rel="noopener noreferrer">
-			<div className="rounded-lg overflow-hidden border border-neutral-800 dark:border-neutral-800 hover:shadow-lg transition-shadow">
+			<div className="rounded-lg overflow-hidden border border-neutral-700 lg:border-neutral-800 dark:border-neutral-800 hover:shadow-lg transition-shadow">
 				{ogData.ogImage?.[0]?.url && (
-					<div className="relative h-48">
+					<div className="relative h-48 overflow-hidden">
 						<Image
 							src={ogData.ogImage[0].url}
 							alt={ogData.ogTitle || ""}
 							fill
-							className="object-cover"
+							className="object-cover w-full h-full transition-transform duration-300 ease-in-out hover:scale-110"
 						/>
 					</div>
 				)}
 				<div className="p-4">
-					<h3 className="font-medium text-lg">
+					<h3 className="font-medium text-lg text-neutral-300">
 						{ogData?.ogTitle?.length && ogData?.ogTitle?.length > 75
 							? ogData?.ogTitle?.slice(0, 75) + "..."
 							: ogData?.ogTitle}
 					</h3>
-					<p className="text-sm text-neutral-600 dark:text-neutral-400 mt-2">
+					<p className="text-sm text-neutral-500 dark:text-neutral-400 mt-2">
 						{ogData?.ogDescription?.length &&
 						ogData?.ogDescription?.length > 100
 							? ogData?.ogDescription?.slice(0, 100) + "..."
