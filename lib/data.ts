@@ -18,4 +18,14 @@ export const userData = {
 			url: "https://yogeshbhutkar.medium.com/",
 		},
 	],
+	experienceHeader: `/**
+* $ whoami --timeline
+* ==================
+* > Loading career milestones...
+* > Executing professional.journey()
+* > Status: 200 OK
+*/`,
+	experienceDescription:
+		"I have worked with various startups and companies to build digital products and experiences. Here are some of the highlights from my journey.",
+	experience: [],
 };

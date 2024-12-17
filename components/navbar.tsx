@@ -5,8 +5,8 @@ import { userData } from "@/lib/data";
 
 export default function Navbar() {
 	return (
-		<header>
-			<nav className="flex items-center h-16 justify-between bg-dark-accent px-48">
+		<header className="bg-dark-accent">
+			<nav className="flex items-center max-w-6xl h-16 justify-between mx-auto">
 				<UserEmail mail={userData.email} name={userData.name} />
 				<Breadcrumbs />
 			</nav>
