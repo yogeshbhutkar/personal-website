@@ -23,7 +23,7 @@ export default function UserEmail({
 			>
 				<Mail className="h-4 w-4 text-neutral-300" />
 			</BorderAnimatedButton>
-			<p className="text-xs text-neutral-300">{name}</p>
+			<p className="text-sm text-neutral-300">{name}</p>
 		</div>
 	);
 }
