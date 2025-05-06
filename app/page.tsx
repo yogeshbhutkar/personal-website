@@ -29,14 +29,17 @@ export default function Home() {
 	  );
 
 	return (
-		<main className="animate-smooth">
+		<>
 			<Navbar />
-			<ContentProvider>
-				<UserProfile />
-				<Experience />
-				<LatestBlogs />
-			</ContentProvider>
-			<Footer />
-		</main>
+			<main className="animate-smooth">
+				<ContentProvider>
+					<UserProfile />
+					<Experience />
+					<LatestBlogs />
+				</ContentProvider>
+				<Footer />
+			</main>
+		</>
+		
 	);
 }

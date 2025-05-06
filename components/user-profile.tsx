@@ -41,8 +41,8 @@ export default function UserProfile() {
 					draggable={false}
 				/>
 			</div>
-			<div data-speed="clamp(1.25)" className="flex flex-col items-center justify-center">
-				<div className="rounded-full overflow-hidden w-44 h-44  md:-mt-10">
+			<div data-speed="clamp(1.25)" className="flex flex-col items-center justify-center md:mt-32">
+				<div className="rounded-full overflow-hidden w-44 h-44">
 					<Image
 						src={"/images/user-profile.jpg"}
 						alt="User profile"
