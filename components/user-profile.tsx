@@ -55,7 +55,7 @@ export default function UserProfile() {
 				<p className="mt-3 text-neutral-400 text-lg">
 					{userData.introLine}
 				</p>
-				<h1 className="font-[family-name:var(--font-otterco-display)] font-normal text-5xl md:text-7xl max-w-2xl mt-6 bg-gradient-to-r from-neutral-400 via-neutral-500 to-neutral-800 text-transparent bg-clip-text bg-300% animate-gradient">
+				<h1 className="font-[family-name:var(--font-otterco-display)] font-normal text-5xl md:text-7xl max-w-2xl mt-6 bg-gradient-to-r from-teal-400 to-yellow-200 text-transparent bg-clip-text bg-300% animate-gradient">
 					{userData.about}
 				</h1>
 				<GitHubRedirect />

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import AnimatedCursor from "@/components/ui/animated-cursor";
 
 const ottercoDisplay = localFont({
 	src: [
@@ -60,6 +61,7 @@ export default function RootLayout({
 				className={`${otterco.variable} ${ottercoDisplay.variable} antialiased`}
 			>
 				{children}
+				<AnimatedCursor />
 			</body>
 		</html>
 	);
