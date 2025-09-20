@@ -14,8 +14,8 @@ export const userData = {
 			url: "https://www.linkedin.com/in/yogeshbhutkar/",
 		},
 		{
-			name: "Medium",
-			url: "https://yogeshbhutkar.medium.com/",
+			name: "Blogs",
+			url: "https://blog.yogeshbhutkar.com/",
 		},
 	],
 	experienceHeader: `/**
